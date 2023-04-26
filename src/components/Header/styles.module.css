@@ -1,0 +1,134 @@
+.col1 {
+    display: flex;
+}
+
+.logo {
+    margin-right: 128px;
+}
+
+.customButtons {
+    width: auto;
+    display: flex;
+}
+
+.customButtons button {
+    width: 146px;
+}
+
+.customButtons button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EEEEEE;
+
+    padding: 0 16px;
+    width: auto;
+    min-width: max-content;
+
+}
+
+.customButtonsWeb button:nth-child(1) {
+    color: #3C99FC;
+}
+
+.customButtonsWeb button:nth-child(2) {
+    color: #00E4FF;
+    background: #164092;
+}
+
+.mobile-pages-btn button:nth-child(1),
+.customButtonsWeb button:nth-child(1) {
+    color: #3C99FC;
+}
+
+.customButtons {
+    margin: 0 16px;
+}
+
+.customButtonsOptions button:nth-child(1) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EEEEEE;
+    width: 115px;
+}
+
+.mobile-pages-btn button:nth-child(2) {
+    background: #164092;
+}
+
+.customButtonsOptions button:nth-child(2) {
+    background: #3b3c51;
+    color: #eaeaea;
+}
+
+.customButtonsOptions button:nth-child(2) img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+
+.customMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+}
+
+.customMenu a {
+    padding: 0 6px;
+    width: max-content;
+}
+
+.mobileBtn {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.mobileBtn button {
+    width: max-content;
+    margin: 6px 0;
+    margin-right: 12px;
+}
+
+.customButtonsIdiomas button {
+    color: #fdfdfd;
+    background: #474f5a;
+}
+
+.customButtonsIdiomas .active {
+    color: #131740;
+    background: #00E4FF;
+}
+
+.mobileBtn .customButtonsIdiomas button {
+
+    background: #31344C !important;
+}
+
+.active {
+    color: #131740 !important;
+    background: #00E4FF !important;
+}
+
+.logout a {
+    display: flex
+}
+
+.logout svg {
+    margin-right: 8px;
+}

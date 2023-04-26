@@ -1,0 +1,80 @@
+.section {
+    position: relative;
+    padding: 95px 0 165px 0;
+}
+
+.section:after {
+    content: '';
+    width: 219px;
+    height: 468px;
+    background: url(/images/packs-elements.png);
+    display: block;
+    position: absolute;
+    top: 66px;
+    left: -219px;
+    z-index: initial;
+}
+
+.title {
+    padding: 7px 0;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #EEEEEE;
+    max-width: 570px;
+    display: block;
+}
+
+.subtitle span {
+
+    color: #00E4FF;
+
+}
+
+.text {
+    position: relative;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #EEEEEE;
+}
+
+
+.pack img {
+    max-width: 100%!important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .pack img {
+        width: 100%;
+    margin-bottom: 32px;
+    }
+
+    .sectio h2 {
+        font-size: 16px;
+        margin: 16px 0;
+    }
+
+
+}
+

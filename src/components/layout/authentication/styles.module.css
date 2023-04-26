@@ -1,0 +1,51 @@
+.col1::after {
+    content: '';
+    position: absolute;
+    width: 62.50%;
+    height: 46.16%;
+    left: -15%;
+    top: -15%;
+    max-width: 600px;
+    max-height: 660px;
+    background: #2E96B7;
+    mix-blend-mode: color-dodge;
+    opacity: 0.66;
+    filter: blur(233.5px);
+}
+
+.col1::before {
+    content: '';
+    position: absolute;
+    background: url(/assets/images/artAuthLayer.png);
+    width: 100%;
+    height: 500px;
+    opacity: 10%;
+    bottom: 0;
+    background-position: top;
+}
+
+.headerMobile::before {
+    content: '';
+    position: absolute;
+    background: url(/assets/images/artAuthLayer.png);
+    width: 100%;
+    height: 100px;
+    opacity: 3%;
+    bottom: 0;
+    background-position: bottom;
+}
+
+.headerMobile::after {
+    content: '';
+    position: absolute;
+    width: 62.50%;
+    height: 46.16%;
+    left: -15%;
+    top: -15%;
+    max-width: 600px;
+    max-height: 660px;
+    background: #2E96B7;
+    mix-blend-mode: color-dodge;
+    opacity: 0.66;
+    filter: blur(233.5px);
+}

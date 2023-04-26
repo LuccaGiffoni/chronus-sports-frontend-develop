@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary-color: #0D102D;
+
+}
+
+
+/* define a cor da barra de rolagem e do polegar */
+div::-webkit-scrollbar {
+    width: 12px;
+    /* largura da barra de rolagem */
+    height: 12px;
+    /* altura da barra de rolagem */
+}
+
+/* define a cor da barra de rolagem */
+div::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* define a cor do polegar */
+div::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.0);
+    /* define a cor do polegar com transparência */
+}
+
+
+.namidia {
+    display: none;
+}
+
+.header-midia>h2 {
+    font-size: 16px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.slider-pai-midia {
+    padding: 0px;
+    overflow: auto;
+}
+
+.slider-pai-midia>div.conteudo-slider-midia {
+    width: 1200px;
+    justify-content: unset;
+}
+
+.slider-pai-midia>div.conteudo-slider-midia>div:nth-child(1) {
+    margin-right: 20px;
+}
+
+.slider-pai-midia>div.conteudo-slider-midia>div:nth-child(1)>div.single-conteudo-midia-imagem {
+    height: 350px;
+    width: 350px;
+}
+
+.slider-pai-midia>div.conteudo-slider-midia>div.single-conteudo-midia.midia-ativa {
+    margin-right: 20px;
+}
+
+.slider-pai-midia>div.conteudo-slider-midia>div.single-conteudo-midia.midia-ativa>div.single-conteudo-midia-imagem {
+    height: 350px;
+    width: 350px;
+}
+
+.slider-pai-midia>div.conteudo-slider-midia>div.single-conteudo-midia.midia-ativa>div.single-conteudo-midia-white-square {
+    height: 350px;
+    width: 350px;
+}
+
+.midia-off img {
+    height: 350px;
+    width: 350px;
+}
+
+.single-conteudo-midia-imagem img {
+    height: 350px;
+}
+
+.midia-off .single-conteudo-midia-imagem {
+    height: 350px;
+    width: 350px;
+}
